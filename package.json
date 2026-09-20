@@ -1,0 +1,12 @@
+{
+  "name": "mission-control",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One page showing every project Ajit is running, what is done, and what is stuck.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node --run build && node -e \"const h=require('node:http'),f=require('node:fs'),p=require('node:path');h.createServer((q,s)=>{let u=q.url.split('?')[0];if(u==='/')u='/index.html';const t=p.join(process.cwd(),u);f.readFile(t,(e,d)=>{if(e){s.writeHead(404);return s.end('not found')}s.writeHead(200,{'content-type':u.endsWith('.json')?'application/json':'text/html'});s.end(d)})}).listen(4321,()=>console.log('http://localhost:4321'))\""
+  },
+  "engines": { "node": ">=20" }
+}

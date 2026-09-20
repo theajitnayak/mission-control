@@ -1,0 +1,143 @@
+{
+  "owner": "theajitnayak",
+  "note": "This file is the source of truth for the words. Numbers, dates and live/down status are filled in automatically by scripts/build.mjs. Edit this file to add a project or change a status; do not edit data/state.json.",
+  "stages": ["idea", "building", "built", "live", "earning"],
+  "projects": [
+    {
+      "id": "startupcredits",
+      "name": "Startup Credits",
+      "oneLiner": "A directory of startup and cloud credit programmes founders can actually apply to.",
+      "stage": "live",
+      "repo": "theajitnayak/startupcredits",
+      "localPath": "C:\\Users\\AJ\\freestack",
+      "url": "https://startupcredits.online",
+      "started": "2026-09-19",
+      "done": [
+        "Live on its own domain with per programme pages a search engine can read",
+        "AI programmes sorted first, plus an AI only filter",
+        "India and Karnataka ELEVATE programmes researched and merged",
+        "Daily terms check robot scheduled for 08:00 IST"
+      ],
+      "next": [
+        "Sign up to the affiliate programmes that pay for referrals",
+        "Add screenshots and proof links to each verified programme",
+        "Write and publish the launch post"
+      ],
+      "blocker": "Affiliate signups have not started. This is the decided money path and nothing on it has moved yet.",
+      "needsAjit": "Some affiliate programmes need identity or payout details that only you can enter.",
+      "moneyPath": "Affiliate commission on programmes that pay for referrals."
+    },
+    {
+      "id": "agent-ready",
+      "name": "Agent Ready",
+      "oneLiner": "Audits whether a company's API is readable by AI agents, and tells them how to fix it.",
+      "stage": "built",
+      "repo": "theajitnayak/agent-ready",
+      "repoPrivate": true,
+      "localPath": "C:\\Users\\AJ\\agent-ready",
+      "url": null,
+      "started": "2026-09-19",
+      "done": [
+        "Auditor, generator, Spectral ruleset, index and scanner all working",
+        "Cloudflare Worker written to serve the scanner and receive leads",
+        "Pricing and a conversion path, split into public and self hosted builds",
+        "50 tests and CI across Node 18 to 24",
+        "39 interviews and a hand outreach shortlist"
+      ],
+      "next": [
+        "Pick and buy a domain",
+        "Deploy the Worker to that domain",
+        "Send the first 20 outreach briefs by hand"
+      ],
+      "blocker": "No domain, so nothing is public. agentsafety.dev was rejected; you want the cheapest option from a list.",
+      "needsAjit": "Buying the domain. Everything after that is automatable.",
+      "moneyPath": "Paid audits and a self hosted licence."
+    },
+    {
+      "id": "breaking-change-radar",
+      "name": "Breaking Change Radar",
+      "oneLiner": "A feed of price, credit, quota and deprecation changes across AI coding tools and model APIs.",
+      "stage": "live",
+      "repo": "theajitnayak/breaking-change-radar",
+      "localPath": "C:\\Users\\AJ\\Documents\\breaking-change-radar",
+      "url": "https://theajitnayak.github.io/breaking-change-radar/",
+      "started": "2026-09-19",
+      "done": [
+        "22 tracked changes in the feed with a documented schema",
+        "Live on GitHub Pages with email capture switched on",
+        "Leads with a personal exposure check instead of an email gate",
+        "Welcome email and first broadcast written"
+      ],
+      "next": [
+        "Fix the daily sweep so it commits what it finds",
+        "Launch to a list and start collecting subscribers"
+      ],
+      "blocker": "The feed is stale. The radar-pricing-sweep task runs daily but the newest item is dated 2026-09-18 and nothing has been committed since 2026-09-19. It is finding things and not saving them.",
+      "needsAjit": null,
+      "moneyPath": "Paid alerts for teams exposed to a pricing change."
+    },
+    {
+      "id": "glocalquest",
+      "name": "GlocalQuest",
+      "oneLiner": "Your own business site, and the home for the Quest Evidence product.",
+      "stage": "live",
+      "repo": null,
+      "localPath": "C:\\Users\\AJ\\questglobal-clone",
+      "url": "https://questglocal.com",
+      "started": "2026-09-18",
+      "done": [
+        "Site built and live on questglocal.com with email on the domain",
+        "Responsive build, working routing and deep links",
+        "LinkedIn page for the business started"
+      ],
+      "next": [
+        "Strip every fictional claim: 1,800 engineers, 11 countries, 17 centres, 14+ years",
+        "Replace with the real four year old business and Quest Evidence",
+        "Put the code in a git repo; it is currently only on disk"
+      ],
+      "blocker": "The live site still carries invented credentials. That is a reputational risk while it is public.",
+      "needsAjit": "Confirm the founding date. 10 April 2022 is tentative and should not be published until you confirm it.",
+      "moneyPath": "Client work and the Quest Evidence product."
+    },
+    {
+      "id": "product-lab",
+      "name": "Product Lab",
+      "oneLiner": "Experiments in finding a problem worth solving. Each folder is one attempt, kept whether it worked or not.",
+      "stage": "building",
+      "repo": "theajitnayak/product-lab",
+      "localPath": null,
+      "url": null,
+      "started": "2026-09-18",
+      "done": [
+        "Repo established as the place failed and parked ideas are kept with their evidence"
+      ],
+      "next": [
+        "File the parked ideas here: drink tracker, Scrolltide, follow automation",
+        "Decide which one, if any, graduates"
+      ],
+      "blocker": null,
+      "needsAjit": null,
+      "moneyPath": "None directly. This exists so ideas stop competing with shipped work."
+    },
+    {
+      "id": "ajit-agent-os",
+      "name": "Agent OS",
+      "oneLiner": "Evidence first workflow experiments for solo operators: offline deal briefs and counterparty separation.",
+      "stage": "building",
+      "repo": "theajitnayak/ajit-agent-os",
+      "localPath": null,
+      "url": null,
+      "started": "2026-09-18",
+      "done": [
+        "Deal brief workflow and tested counterparty separation",
+        "Backs the deal-reply skill used for live credit deals"
+      ],
+      "next": [
+        "Close the open credit deal using it, and record the outcome as evidence"
+      ],
+      "blocker": "One live deal is unresolved: a seller claims a $10k / 1M TPM account sold at 30 percent, but the account looked empty on inspection. You asked for screenshot proof and it never came.",
+      "needsAjit": "Chase the seller for proof, or walk away.",
+      "moneyPath": "Brokerage margin on credit deals."
+    }
+  ]
+}
