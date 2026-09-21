@@ -94,7 +94,7 @@
       "name": "GlocalQuest",
       "oneLiner": "Your business site, now a product page for Quest Evidence.",
       "stage": "live",
-      "repo": null,
+      "repo": "theajitnayak/questglocal",
       "localPath": "C:\\Users\\AJ\\questglobal-clone",
       "url": "https://questglocal.com",
       "started": "2026-09-18",
@@ -102,15 +102,17 @@
         "Site live on questglocal.com with email on the domain",
         "Every fictional claim removed: no 1,800 engineers, no 11 countries, no 14+ years (verified on the live page 2026-09-21)",
         "Rewritten as a Quest Evidence product page with a clear four step explanation",
-        "LinkedIn page for the business started"
+        "LinkedIn page for the business started",
+        "Put into git on 2026-09-21, private repo, first commit matches what is live",
+        "Adopted Inter and the shared system; brand navy kept; every text node on all six pages now passes WCAG AA"
       ],
       "next": [
-        "Put the code in a git repo; it is the only project not in version control",
-        "Decide whether the business history belongs on the site at all"
+        "Deploy the rebuilt site: run upload-to-hosting.ps1, which prompts for the FTP password"
       ],
-      "blocker": "Not in git. It is the only live site with no repo, so there is no history and no way to roll back a bad edit.",
-      "needsAjit": null,
-      "moneyPath": "Client work and the Quest Evidence product."
+      "blocker": "The restyle and the accessibility fixes are committed but NOT live. questglocal.com still serves the old build. It deploys by FTP, which needs your password.",
+      "needsAjit": "Running the FTP upload. I cannot enter the password.",
+      "moneyPath": "Client work and the Quest Evidence product.",
+      "repoPrivate": true
     },
     {
       "id": "product-lab",
@@ -168,14 +170,16 @@
         "Free paste mode, so it works without anyone paying for API keys",
         "Spend cap built in",
         "Pitch kit written",
-        "$2,000 Startups application submitted"
+        "$2,000 Startups application submitted",
+        "Adopted Inter and the shared system on both the landing page and the app; voice teal and verdict gold kept, both fixed for AA"
       ],
       "next": [
+        "Deploy the restyled landing page; trycouncilai.com still serves the old one",
         "Run a real question through free mode and keep the result",
         "Send the first client pitch"
       ],
-      "blocker": "Only 2 commits and it was built in a single day. It is live and unproven: nobody has run a real question through it yet.",
-      "needsAjit": "Sending the first pitch. That is yours to send, not mine.",
+      "blocker": "The restyle is committed but NOT live, and the repo has no deploy config, so I could not push it out. Separately it is still unproven: nobody has run a real question through it.",
+      "needsAjit": "Deploying the landing page, and sending the first pitch.",
       "moneyPath": "Paid consensus runs, or per seat for teams making decisions."
     }
   ]

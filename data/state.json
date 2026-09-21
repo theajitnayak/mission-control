@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T10:23:14.451Z",
+  "generatedAt": "2026-09-21T16:27:52.531Z",
   "owner": "theajitnayak",
   "stages": [
     "idea",
@@ -13,7 +13,7 @@
     "live": 4,
     "earning": 0,
     "blocked": 6,
-    "needsAjit": 4
+    "needsAjit": 5
   },
   "projects": [
     {
@@ -46,15 +46,20 @@
       "moneyPath": "Affiliate commission on programmes that pay for referrals.",
       "signals": {
         "repo": {
-          "visible": false,
-          "error": "HTTP 403"
+          "visible": true,
+          "private": false,
+          "pushedAt": "2026-09-21T10:29:52Z",
+          "commits": 33,
+          "openIssues": 2,
+          "hasPages": true,
+          "defaultBranch": "main"
         },
         "site": {
           "code": 200,
           "up": true
         },
-        "lastActivity": null,
-        "idleDays": null,
+        "lastActivity": "2026-09-21T10:29:52Z",
+        "idleDays": 0,
         "progress": 67
       }
     },
@@ -86,8 +91,7 @@
       "moneyPath": "Paid audits and a self hosted licence.",
       "signals": {
         "repo": {
-          "visible": false,
-          "error": "HTTP 403"
+          "visible": false
         },
         "site": null,
         "lastActivity": null,
@@ -120,15 +124,20 @@
       "moneyPath": "Paid alerts for teams exposed to a pricing change.",
       "signals": {
         "repo": {
-          "visible": false,
-          "error": "HTTP 403"
+          "visible": true,
+          "private": false,
+          "pushedAt": "2026-09-21T10:29:39Z",
+          "commits": 12,
+          "openIssues": 0,
+          "hasPages": true,
+          "defaultBranch": "main"
         },
         "site": {
           "code": 200,
           "up": true
         },
-        "lastActivity": null,
-        "idleDays": null,
+        "lastActivity": "2026-09-21T10:29:39Z",
+        "idleDays": 0,
         "progress": 71
       }
     },
@@ -137,7 +146,7 @@
       "name": "GlocalQuest",
       "oneLiner": "Your business site, now a product page for Quest Evidence.",
       "stage": "live",
-      "repo": null,
+      "repo": "theajitnayak/questglocal",
       "localPath": "C:\\Users\\AJ\\questglobal-clone",
       "url": "https://questglocal.com",
       "started": "2026-09-18",
@@ -145,24 +154,28 @@
         "Site live on questglocal.com with email on the domain",
         "Every fictional claim removed: no 1,800 engineers, no 11 countries, no 14+ years (verified on the live page 2026-09-21)",
         "Rewritten as a Quest Evidence product page with a clear four step explanation",
-        "LinkedIn page for the business started"
+        "LinkedIn page for the business started",
+        "Put into git on 2026-09-21, private repo, first commit matches what is live",
+        "Adopted Inter and the shared system; brand navy kept; every text node on all six pages now passes WCAG AA"
       ],
       "next": [
-        "Put the code in a git repo; it is the only project not in version control",
-        "Decide whether the business history belongs on the site at all"
+        "Deploy the rebuilt site: run upload-to-hosting.ps1, which prompts for the FTP password"
       ],
-      "blocker": "Not in git. It is the only live site with no repo, so there is no history and no way to roll back a bad edit.",
-      "needsAjit": null,
+      "blocker": "The restyle and the accessibility fixes are committed but NOT live. questglocal.com still serves the old build. It deploys by FTP, which needs your password.",
+      "needsAjit": "Running the FTP upload. I cannot enter the password.",
       "moneyPath": "Client work and the Quest Evidence product.",
+      "repoPrivate": true,
       "signals": {
-        "repo": null,
+        "repo": {
+          "visible": false
+        },
         "site": {
           "code": 200,
           "up": true
         },
         "lastActivity": null,
         "idleDays": null,
-        "progress": 67
+        "progress": 86
       }
     },
     {
@@ -186,12 +199,17 @@
       "moneyPath": "None directly. This exists so ideas stop competing with shipped work.",
       "signals": {
         "repo": {
-          "visible": false,
-          "error": "HTTP 403"
+          "visible": true,
+          "private": false,
+          "pushedAt": "2026-09-18T21:56:14Z",
+          "commits": 12,
+          "openIssues": 0,
+          "hasPages": true,
+          "defaultBranch": "main"
         },
         "site": null,
-        "lastActivity": null,
-        "idleDays": null,
+        "lastActivity": "2026-09-18T21:56:14Z",
+        "idleDays": 2,
         "progress": 33
       }
     },
@@ -216,12 +234,17 @@
       "moneyPath": "Brokerage margin on credit deals.",
       "signals": {
         "repo": {
-          "visible": false,
-          "error": "HTTP 403"
+          "visible": true,
+          "private": false,
+          "pushedAt": "2026-09-18T19:11:11Z",
+          "commits": 5,
+          "openIssues": 0,
+          "hasPages": false,
+          "defaultBranch": "main"
         },
         "site": null,
-        "lastActivity": null,
-        "idleDays": null,
+        "lastActivity": "2026-09-18T19:11:11Z",
+        "idleDays": 2,
         "progress": 67
       }
     },
@@ -241,19 +264,20 @@
         "Free paste mode, so it works without anyone paying for API keys",
         "Spend cap built in",
         "Pitch kit written",
-        "$2,000 Startups application submitted"
+        "$2,000 Startups application submitted",
+        "Adopted Inter and the shared system on both the landing page and the app; voice teal and verdict gold kept, both fixed for AA"
       ],
       "next": [
+        "Deploy the restyled landing page; trycouncilai.com still serves the old one",
         "Run a real question through free mode and keep the result",
         "Send the first client pitch"
       ],
-      "blocker": "Only 2 commits and it was built in a single day. It is live and unproven: nobody has run a real question through it yet.",
-      "needsAjit": "Sending the first pitch. That is yours to send, not mine.",
+      "blocker": "The restyle is committed but NOT live, and the repo has no deploy config, so I could not push it out. Separately it is still unproven: nobody has run a real question through it.",
+      "needsAjit": "Deploying the landing page, and sending the first pitch.",
       "moneyPath": "Paid consensus runs, or per seat for teams making decisions.",
       "signals": {
         "repo": {
-          "visible": false,
-          "error": "HTTP 403"
+          "visible": false
         },
         "site": {
           "code": 200,
@@ -261,7 +285,7 @@
         },
         "lastActivity": null,
         "idleDays": null,
-        "progress": 75
+        "progress": 70
       }
     }
   ]
