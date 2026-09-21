@@ -22,6 +22,7 @@ const TARGETS = [
   { name: 'Startup Credits', path: 'C:/Users/AJ/freestack/assets/tokens.css' },
   { name: 'Breaking Change Radar', path: 'C:/Users/AJ/Documents/breaking-change-radar/assets/tokens.css' },
   { name: 'Mission Control', path: 'C:/Users/AJ/mission-control/assets/tokens.css' },
+  { name: 'AI Council', path: 'C:/Users/AJ/ai-council/site/assets/tokens.css' },
 ];
 
 const write = process.argv.includes('--write');
