@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T10:03:19.397Z",
+  "generatedAt": "2026-09-21T10:19:51.954Z",
   "owner": "theajitnayak",
   "stages": [
     "idea",
@@ -32,11 +32,12 @@
         "AI programmes sorted first, plus an AI only filter",
         "Self hosted company logos with a neutral fallback",
         "India and Karnataka ELEVATE programmes researched and merged",
-        "Daily terms check robot scheduled for 08:00 IST"
+        "Daily terms check robot scheduled for 08:00 IST",
+        "Fixed a rendering bug that printed stray text on all 67 visible cards"
       ],
       "next": [
-        "Sign up to the affiliate programmes that pay for referrals",
         "Configure the change alerts endpoint so alerts become visible",
+        "Sign up to the affiliate programmes that pay for referrals",
         "Add screenshots and proof links to each verified programme",
         "Write and publish the launch post"
       ],
@@ -47,8 +48,8 @@
         "repo": {
           "visible": true,
           "private": false,
-          "pushedAt": "2026-09-21T10:01:18Z",
-          "commits": 31,
+          "pushedAt": "2026-09-21T10:18:00Z",
+          "commits": 32,
           "openIssues": 2,
           "hasPages": true,
           "defaultBranch": "main"
@@ -57,9 +58,9 @@
           "code": 200,
           "up": true
         },
-        "lastActivity": "2026-09-21T10:01:18Z",
+        "lastActivity": "2026-09-21T10:18:00Z",
         "idleDays": 0,
-        "progress": 64
+        "progress": 67
       }
     },
     {
@@ -111,13 +112,14 @@
         "22 tracked changes in the feed with a documented schema",
         "Live on GitHub Pages with email capture switched on",
         "Leads with a personal exposure check instead of an email gate",
-        "Welcome email and first broadcast written"
+        "Welcome email and first broadcast written",
+        "Daily sweep fixed 2026-09-21 and verified end to end: full 12 vendor sweep, correct no-news result, publish.sh run"
       ],
       "next": [
-        "Fix the daily sweep so it commits what it finds",
-        "Launch to a list and start collecting subscribers"
+        "Launch to a list and start collecting subscribers",
+        "Decide what a paid alert is worth"
       ],
-      "blocker": "The feed is stale and getting staler. The newest item is still dated 2026-09-18 and the repo has had no commit since 2026-09-19, though radar-pricing-sweep has run every day since. It is finding changes and not saving them.",
+      "blocker": "Never launched. The machine works and the feed is current, but nobody knows it exists, so the email capture has nothing to capture.",
       "needsAjit": null,
       "moneyPath": "Paid alerts for teams exposed to a pricing change.",
       "signals": {
@@ -136,7 +138,7 @@
         },
         "lastActivity": "2026-09-19T02:43:02Z",
         "idleDays": 2,
-        "progress": 67
+        "progress": 71
       }
     },
     {
