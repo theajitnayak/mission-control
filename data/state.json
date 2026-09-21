@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T19:01:50.643Z",
+  "generatedAt": "2026-09-21T10:03:19.397Z",
   "owner": "theajitnayak",
   "stages": [
     "idea",
@@ -26,25 +26,29 @@
       "url": "https://startupcredits.online",
       "started": "2026-09-19",
       "done": [
-        "Live on its own domain with per programme pages a search engine can read",
+        "80 programmes listed, each with a page a search engine can read",
+        "Live on its own domain, verified in Google Search Console",
+        "Redesigned light and clinical, with the core comparison above the fold",
         "AI programmes sorted first, plus an AI only filter",
+        "Self hosted company logos with a neutral fallback",
         "India and Karnataka ELEVATE programmes researched and merged",
         "Daily terms check robot scheduled for 08:00 IST"
       ],
       "next": [
         "Sign up to the affiliate programmes that pay for referrals",
+        "Configure the change alerts endpoint so alerts become visible",
         "Add screenshots and proof links to each verified programme",
         "Write and publish the launch post"
       ],
-      "blocker": "Affiliate signups have not started. This is the decided money path and nothing on it has moved yet.",
+      "blocker": "Affiliate signups still have not started. The site has had three days of design and content work while the one thing that earns money has not moved. Checked on 2026-09-21: programs.json has a referral_required field, but that describes the programme, not a link that pays you.",
       "needsAjit": "Some affiliate programmes need identity or payout details that only you can enter.",
       "moneyPath": "Affiliate commission on programmes that pay for referrals.",
       "signals": {
         "repo": {
           "visible": true,
           "private": false,
-          "pushedAt": "2026-09-20T18:43:57Z",
-          "commits": 28,
+          "pushedAt": "2026-09-21T10:01:18Z",
+          "commits": 31,
           "openIssues": 2,
           "hasPages": true,
           "defaultBranch": "main"
@@ -53,9 +57,9 @@
           "code": 200,
           "up": true
         },
-        "lastActivity": "2026-09-20T18:43:57Z",
+        "lastActivity": "2026-09-21T10:01:18Z",
         "idleDays": 0,
-        "progress": 57
+        "progress": 64
       }
     },
     {
@@ -73,7 +77,8 @@
         "Cloudflare Worker written to serve the scanner and receive leads",
         "Pricing and a conversion path, split into public and self hosted builds",
         "50 tests and CI across Node 18 to 24",
-        "39 interviews and a hand outreach shortlist"
+        "39 interviews and a hand outreach shortlist",
+        "A click-through domain shopping page, so the options are ready to pick from"
       ],
       "next": [
         "Pick and buy a domain",
@@ -90,7 +95,7 @@
         "site": null,
         "lastActivity": null,
         "idleDays": null,
-        "progress": 63
+        "progress": 67
       }
     },
     {
@@ -112,7 +117,7 @@
         "Fix the daily sweep so it commits what it finds",
         "Launch to a list and start collecting subscribers"
       ],
-      "blocker": "The feed is stale. The radar-pricing-sweep task runs daily but the newest item is dated 2026-09-18 and nothing has been committed since 2026-09-19. It is finding things and not saving them.",
+      "blocker": "The feed is stale and getting staler. The newest item is still dated 2026-09-18 and the repo has had no commit since 2026-09-19, though radar-pricing-sweep has run every day since. It is finding changes and not saving them.",
       "needsAjit": null,
       "moneyPath": "Paid alerts for teams exposed to a pricing change.",
       "signals": {
@@ -130,7 +135,7 @@
           "up": true
         },
         "lastActivity": "2026-09-19T02:43:02Z",
-        "idleDays": 1,
+        "idleDays": 2,
         "progress": 67
       }
     },
@@ -198,7 +203,7 @@
         },
         "site": null,
         "lastActivity": "2026-09-18T21:56:14Z",
-        "idleDays": 1,
+        "idleDays": 2,
         "progress": 33
       }
     },
@@ -233,7 +238,7 @@
         },
         "site": null,
         "lastActivity": "2026-09-18T19:11:11Z",
-        "idleDays": 1,
+        "idleDays": 2,
         "progress": 67
       }
     }
