@@ -92,24 +92,24 @@
     {
       "id": "glocalquest",
       "name": "GlocalQuest",
-      "oneLiner": "Your own business site, and the home for the Quest Evidence product.",
+      "oneLiner": "Your business site, now a product page for Quest Evidence.",
       "stage": "live",
       "repo": null,
       "localPath": "C:\\Users\\AJ\\questglobal-clone",
       "url": "https://questglocal.com",
       "started": "2026-09-18",
       "done": [
-        "Site built and live on questglocal.com with email on the domain",
-        "Responsive build, working routing and deep links",
+        "Site live on questglocal.com with email on the domain",
+        "Every fictional claim removed: no 1,800 engineers, no 11 countries, no 14+ years (verified on the live page 2026-09-21)",
+        "Rewritten as a Quest Evidence product page with a clear four step explanation",
         "LinkedIn page for the business started"
       ],
       "next": [
-        "Strip every fictional claim: 1,800 engineers, 11 countries, 17 centres, 14+ years",
-        "Replace with the real four year old business and Quest Evidence",
-        "Put the code in a git repo; it is currently only on disk"
+        "Put the code in a git repo; it is the only project not in version control",
+        "Decide whether the business history belongs on the site at all"
       ],
-      "blocker": "The live site still carries invented credentials. That is a reputational risk while it is public.",
-      "needsAjit": "Confirm the founding date. 10 April 2022 is tentative and should not be published until you confirm it.",
+      "blocker": "Not in git. It is the only live site with no repo, so there is no history and no way to roll back a bad edit.",
+      "needsAjit": null,
       "moneyPath": "Client work and the Quest Evidence product."
     },
     {
@@ -151,6 +151,32 @@
       "blocker": "One live deal is unresolved: a seller claims a $10k / 1M TPM account sold at 30 percent, but the account looked empty on inspection. You asked for screenshot proof and it never came.",
       "needsAjit": "Chase the seller for proof, or walk away.",
       "moneyPath": "Brokerage margin on credit deals."
+    },
+    {
+      "id": "ai-council",
+      "name": "AI Council",
+      "oneLiner": "Several AI models debate a question, then a Chair merges them into one consensus. What they cannot agree on is parked in a disagreement ledger.",
+      "stage": "live",
+      "repo": "theajitnayak/ai-council",
+      "repoPrivate": true,
+      "localPath": "C:UsersAJai-council",
+      "url": "https://trycouncilai.com",
+      "started": "2026-09-20",
+      "done": [
+        "Live at trycouncilai.com on its own domain",
+        "Multi model debate to consensus, with a disagreement ledger",
+        "Free paste mode, so it works without anyone paying for API keys",
+        "Spend cap built in",
+        "Pitch kit written",
+        "$2,000 Startups application submitted"
+      ],
+      "next": [
+        "Run a real question through free mode and keep the result",
+        "Send the first client pitch"
+      ],
+      "blocker": "Only 2 commits and it was built in a single day. It is live and unproven: nobody has run a real question through it yet.",
+      "needsAjit": "Sending the first pitch. That is yours to send, not mine.",
+      "moneyPath": "Paid consensus runs, or per seat for teams making decisions."
     }
   ]
 }
